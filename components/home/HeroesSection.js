@@ -69,7 +69,7 @@ return(
             <ul className={styles.list}>
                 <li>- The Heroes of Blockchain are the main characters in the game. At least 1 hero is required to play the game.</li>
                 <li>- Each hero belongs to a specific Blockchain region, which grants their hero a special power.</li>
-                <li>- All the heroes have the power to evolve but only a few of them can 'fuse'.</li>
+                <li>- All the heroes have the power to evolve but only a few of them can fuse.</li>
                 <li>- There is no public sale or private sale at the current time for the Hero NFTs. Stay tuned for more <Link href="/the-heroes"><a>info</a></Link></li>
                 
             </ul>
@@ -79,7 +79,7 @@ return(
                     className={styles.swiper}
                     modules={[Navigation, EffectCards]}
                     spaceBetween={50}
-                    // slidesPerView={4}
+                    
                     watchSlidesProgress
                     effect={"cards"}
                     grabCursor={true}

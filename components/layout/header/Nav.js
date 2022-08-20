@@ -60,10 +60,10 @@ export default function Nav() {
       </div>
       <div className={styles.rightSide}>
         <div className={styles.icons}>
-          <a href="https://twitter.com/cob_mmorpg" target="_blank" className={styles.icon}><BsTwitter size={22} /></a>
-          <a href="https://t.me/callofblockchain" target="_blank" className={styles.icon}><BsTelegram size={22} /></a>
-          <a href="https://discord.gg/QYMhjrSa62" target="_blank" className={styles.icon}><FaDiscord size={22} /></a>
-          <a href="https://www.facebook.com/callofblockchain/" target="_blank" className={styles.icon}><BsFacebook size={22} /></a>
+          <a href="https://twitter.com/cob_mmorpg" target="_blank" rel="noreferrer" className={styles.icon}><BsTwitter size={22} /></a>
+          <a href="https://t.me/callofblockchain" target="_blank" rel="noreferrer" className={styles.icon}><BsTelegram size={22} /></a>
+          <a href="https://discord.gg/QYMhjrSa62" target="_blank" rel="noreferrer" className={styles.icon}><FaDiscord size={22} /></a>
+          <a href="https://www.facebook.com/callofblockchain/" target="_blank" rel="noreferrer" className={styles.icon}><BsFacebook size={22} /></a>
         </div>
         <div className={styles.connect}>
         <button onClick={connectHandler}>

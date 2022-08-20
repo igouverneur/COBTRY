@@ -13,7 +13,7 @@ export default function HeroCard({name, attributes, image}) {
             
             <div className={styles.bottom}>
             <button>Mint</button>
-            <a target="_blank" href={`https://testnets.opensea.io/collection/${name.toLowerCase()}try`}><Image src="/svgs/Logomark-Transparent White.png" height="50px" width="50px"/></a>
+            <a target="_blank" rel="noreferrer" href={`https://testnets.opensea.io/collection/${name.toLowerCase()}try`}><Image src="/svgs/Logomark-Transparent White.png" height="50px" width="50px"/></a>
             </div>
             
         </div>

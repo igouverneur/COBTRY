@@ -19,7 +19,7 @@ export default function Presale({buyInPresale, claimPresale, handleBuyAmount, is
          {
            loading: 'Waiting for transaction...',
            success: (res) => (
-            <h1 className={styles.toastTry}>Your Transction Hash <a target="_blank" href={`https://testnet.bscscan.com/tx/${res}`}>{res}</a></h1>
+            <h1 className={styles.toastTry}>Your Transction Hash <a target="_blank" rel="noreferrer" href={`https://testnet.bscscan.com/tx/${res}`}>{res}</a></h1>
            ),
            error: (err) => `${err}`,
          },

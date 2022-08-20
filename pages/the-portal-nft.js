@@ -269,7 +269,7 @@ export default function PortalNFT() {
       
         <h3>Sold: {soldAmount} / 25000</h3>
         <h3>Price: {mintPrice} MATIC</h3>
-        <a href="https://testnets.opensea.io/collection/maintry-v3" target="_blank"><Image src="/svgs/OpenSea-Full-Logo.png" width="150px" height="40px"/></a>
+        <a href="https://testnets.opensea.io/collection/maintry-v3" target="_blank" rel="noreferrer"><Image src="/svgs/OpenSea-Full-Logo.png" width="150px" height="40px"/></a>
       </div>
     </>
     
