@@ -24,53 +24,23 @@ body {
 
 
 @font-face {
-  font-family: "Sunblood";
-  src: url("../public/fonts/Sunblood.ttf");
-}
-
-@font-face {
-  font-family: "Swarth";
-  src: url("../public/fonts/Swarth.ttf");
-}
-@font-face {
-  font-family: "Aloevera";
-  src: url("../public/fonts/Aloevera.ttf");
-}
-@font-face {
-  font-family: "FunkyStar";
-  src: url("../public/fonts/FunkyStar.ttf");
-}
-
-@font-face {
-  font-family: "Playvictim";
-  src: url("../public/fonts/Playvictim.ttf");
-}
-@font-face {
   font-family: "Bicyclette";
-  src: url("../public/fonts/Bicyclette.ttf");
+  src: url("../public/fonts/Bicyclette.ttf"); 
 }
-@font-face {
-  font-family: "Filsan";
-  src: url("../public/fonts/Filsan.otf");
-}
-@font-face {
-  font-family: "Backstabber";
-  src: url("../public/fonts/Backstabber.ttf");
-}
+
 @font-face {
   font-family: "Lockdoor";
   src: url("../public/fonts/Lockdoor.ttf");
 }
-@font-face {
-  font-family: "WantCoffee";
-  src: url("../public/fonts/WantCoffee.otf");
-}
+
 @font-face {
   font-family: "Entuista";
   src: url("../public/fonts/Entuista.otf");
 }
+
+
 :root {
-  /* --primaryColor: #0078AA; */
+  
   --primaryColor: #1F4690;
   --secondaryColor: #231955;
   --orange: #E8AA42;
