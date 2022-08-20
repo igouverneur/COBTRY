@@ -24,7 +24,7 @@ function MyApp({ Component, pageProps }) {
         <Fragment>
           
           <Toaster/>
-          {Component.name !== "Home" && (<Nav></Nav>)}
+          {Component.displayName !== "Home" && (<Nav></Nav>)}
           
           <Component {...pageProps} />
           <Footer></Footer>
