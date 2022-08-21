@@ -5,20 +5,11 @@ body {
   box-sizing: border-box;
   font-family: "Bicyclette", sans-serif;
   overflow-x: hidden;
-  /* background-image: url("../public/images/wall_paper4.png");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-  background-color: black;
   
-  max-height: 100vh;
-  max-width: 100vw;
-  z-index: -1; */
   scrollbar-color: white;
   background: rgb(232,170,66);
   background: radial-gradient(circle, rgba(232,170,66,1) 0%, rgba(35,25,85,1) 100%);  
-  /* background-color: #171717; */
+  
   z-index: -100;
 }
 

@@ -1,18 +1,45 @@
 .container{
-    min-height: 30px;
+    min-height: 40px;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    /* background-color: aliceblue; */
-    /* position: absolute;
-    bottom: 0;
-    width: 100%; */
+    align-items: center;
+    flex-direction: column;
+    
     margin-top: 2rem;
     text-align: center;
+    
 }
 
 .container h4 {
     margin-bottom: 1rem;
     font-size: 0.8rem;
     font-weight: 500;
+}
+
+.upper{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.contact{
+    flex: 5;
+    gap: 0.5rem;
+    
+}
+
+.contact h2 {
+    font-size: 1rem;
+    font-weight: 200;
+    text-align: left;
+}
+
+.social{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    
 }

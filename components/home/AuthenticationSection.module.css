@@ -3,7 +3,7 @@
 .container{
     min-height: 100vh;
     min-width: 100%;
-    /* background-color: rgb(12, 12, 12); */
+    
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -28,13 +28,13 @@ position: relative;
     margin-left: 0.1rem;
 }
 .description ul li{
-    /* color: #171717; */
+    
     color: white;
     font-size: 1.1rem;
     line-height: 180%;
 }
 .description ul li a{
-    /* color: #171717; */
+    
     color: var(--secondaryColor);
     line-height: 180%;
 }
@@ -43,14 +43,14 @@ position: relative;
   border: none;
   color: #171717;
   padding: 0.8rem 1.8rem;
-  /* border-radius: 10px 20px 30px 40px; */
+  
   border-radius: 10px 10px;
     font-size: 0.9rem;
     transition: all 0.5s;
     align-self: flex-start;
 }
 .description button:hover{
-    /* background-color: black; */
+    
     background-color: #171717;
     color: white;
 }
@@ -59,7 +59,7 @@ position: relative;
     top: 30px;
     color: white;
     font-size: 3rem;
-    /* font-family: 'Chewy', cursive; */
+    
     
     font-weight: bold;    
 }
@@ -69,7 +69,7 @@ position: relative;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    /* background-color: blueviolet; */
+    
     gap: 2rem;
     min-height: 75vh;
     
@@ -79,9 +79,7 @@ position: relative;
 .title legend{
     color: var(--primaryColor);
     font-size: 2.0rem;
-    /* font-family: 'Chewy', cursive; */
-    /* font-family: 'Tomes'; */
-    /* font-family: 'Entuista'; */
+    
 }
 .iconColor{
     transition: all 0.5s;
@@ -91,11 +89,3 @@ position: relative;
     color: var(--secondaryColor);
 }
 
-/* @media screen and (max-width: 640px){
-    .container{
-        flex-direction: column-reverse;
-    }
-    .rightSide{
-        text-align: center;
-    }
-} */

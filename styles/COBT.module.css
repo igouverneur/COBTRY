@@ -11,7 +11,7 @@
     padding: 1rem;
 }
 .topSide{
-    /* min-height: 80vh; */
+    
     display: flex;
     gap: 1rem;
     margin-top: 2rem;
@@ -20,8 +20,7 @@
 
 .presale{
     flex: 3;
-    /* background-color: black; */
-    /* min-height: 60vh; */
+    
 }
 
 .try{

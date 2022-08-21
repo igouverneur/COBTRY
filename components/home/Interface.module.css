@@ -32,12 +32,12 @@ background-image: url("../../public/images/wall_paper4.png");
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    /* background-color: black; */
+    
     padding-left: 3rem;
     gap: 1.8rem;
 }
 .intro h1 {
-    /* font-size: 3.5rem; */
+    
     color: white;
 }
 .intro span{
@@ -56,7 +56,7 @@ background-image: url("../../public/images/wall_paper4.png");
   border-radius: 10px 10px;
     font-size: 1rem;
     transition: all 0.5s;
-    /* width: 25%; */
+    
     margin-top: 1rem;
 }
 
@@ -67,11 +67,11 @@ background-image: url("../../public/images/wall_paper4.png");
 }
 
 .coming{
-    /* color: var(--secondaryColor); */
+    
     color: white;
-    /* font-family: 'Entuista'; */
+    
     font-size: 5.5rem;
-    /* font-weight: bolder; */
+    
     
 }
 

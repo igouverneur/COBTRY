@@ -12,9 +12,9 @@
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
-  /* border-radius: 10px; */
+  
   box-shadow: 0px -10px 20px 0px rgba(0, 0, 0, 0.7);
-  /* box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.9) ; */
+  
   
   overflow: hidden;
   display: flex;
@@ -81,7 +81,7 @@
   -ms-appearance: none;
   -moz-appearance: none;
   background-color:rgba(255,255,255,0.5);
-  /* opacity: 0.6; */
+  
   border: 2px solid var(--secondaryColor);
   padding: 1rem;
     border-radius: 10px;
@@ -92,13 +92,9 @@
 }
 
 .inputContainer button {
-    /* background-color: var(--secondaryColor); */
+    
   border: none;
-  /* color: white; */
-  /* padding: 0.8rem 2rem; */
-  /* border-radius: 10px 20px 30px 40px; */
-  /* border-radius: 10px 10px; */
-    /* font-size: 0.9rem; */
+  
     transition: all 0.5s;
 }
 
