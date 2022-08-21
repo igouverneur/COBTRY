@@ -43,3 +43,15 @@
     justify-content: space-between;
     
 }
+
+@media screen and (min-width: 1600px){
+    .social a {
+        scale: 1.4;
+    }
+    .contact h2{
+        font-size: 1.4rem;
+    }
+    .container h4 {
+        font-size: 1.2rem;
+    }
+}
