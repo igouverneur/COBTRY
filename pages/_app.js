@@ -2,8 +2,7 @@ import "../styles/globals.css";
 import { Fragment } from "react";
 import Nav from "../components/layout/header/Nav";
 import Footer from "../components/layout/footer/Footer";
-import Image from "next/image";
-import Head from "next/head";
+
 
 import {CountDownTimerProvider }from "../context/CountDownTimerContext"
 

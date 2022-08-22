@@ -17,7 +17,7 @@ export default function PresaleInfo() {
         </div>
         <div className={styles.qna}>
             <h1 className={styles.q}>Token Address:</h1>
-            <a  className={styles.a}href="">0x26fD6D2B6F299eD9776AD9B713A0A33EB96Fd251</a>
+            <a  className={styles.a}href="">0xFF4E741572Fa00a93949aD571Cb2F8D6A9E1dc33</a>
         </div>
         <div className={styles.qna}>
             <h1 className={styles.q}>Total Supply:</h1>

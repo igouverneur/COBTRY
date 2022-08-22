@@ -22,7 +22,7 @@ export default function HeroesSection() {
         const heroesJson = []
         for(let heroContract of HeroesContracts){
       
-          const provider = new ethers.providers.JsonRpcProvider("https://matic-mumbai.chainstacklabs.com");
+          const provider = new ethers.providers.JsonRpcProvider("https://rpc-mainnet.maticvigil.com");
           const contract = new ethers.Contract(
           heroContract,
           HeroesAbi,

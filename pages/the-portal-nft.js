@@ -24,7 +24,8 @@ export default function PortalNFT() {
   
   
   const provider = new ethers.providers.JsonRpcProvider(
-    "https://matic-mumbai.chainstacklabs.com"
+    // "https://matic-mumbai.chainstacklabs.com"
+    "https://rpc-mainnet.maticvigil.com"
     
     );
     
@@ -126,8 +127,8 @@ export default function PortalNFT() {
     if (active && account) {
       const network = await clientProvider.getNetwork()
       //137 Polygon
-      if(network.chainId !== 80001){
-        throw "Please connect to BSC test network"
+      if(network.chainId !== 137){
+        throw "Please connect to Polygon Main network"
       }else{
         try {
         
@@ -269,7 +270,7 @@ export default function PortalNFT() {
       
         <h3>Sold: {soldAmount} / 25000</h3>
         <h3>Price: {mintPrice} MATIC</h3>
-        <a href="https://testnets.opensea.io/collection/maintry-v3" target="_blank" rel="noreferrer"><Image src="/svgs/OpenSea-Full-Logo.png" width="150px" height="40px"/></a>
+        <a href="https://opensea.io/collection/portal-to-the-blockchain" target="_blank" rel="noreferrer"><Image src="/svgs/OpenSea-Full-Logo.png" width="150px" height="40px"/></a>
       </div>
     </>
     

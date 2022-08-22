@@ -935,5 +935,7 @@ export const TryAbi = [
   }
 ]
 
-export const TryContractAddress = "0x7DfC0499AD730d8c62aa8ba297936693Cc26e781"
+export const PTTBContractAddress = "0x866b1F62af1De065E91819f900E882A1E6beAcCB"
+export const TryContractAddress = "0x866b1F62af1De065E91819f900E882A1E6beAcCB"
+// export const TryContractAddress = "0x7DfC0499AD730d8c62aa8ba297936693Cc26e781"
 // export const TryContractAddress = "0xC0B0715B5bea5D84A640E863E0b4f739CB70872b"

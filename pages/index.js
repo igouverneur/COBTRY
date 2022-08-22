@@ -12,28 +12,6 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   
 
-  // const getHeroesJson = async () => {
-    
-  //   const heroesJson = []
-  //   for(let heroContract of HeroesContracts){
-  
-  //     const provider = new ethers.providers.JsonRpcProvider("https://matic-mumbai.chainstacklabs.com");
-  //     const contract = new ethers.Contract(
-  //     heroContract,
-  //     HeroesAbi,
-  //     provider
-  //     )
-  
-  //     const tokenURI = await contract.tokenURI(1)
-  
-  //     const token = tokenURI.replace("ipfs://", "https://ipfs.io/ipfs/")
-  //     const response = await fetch(token);
-  //     const json = await response.json();
-      
-  //     heroesJson.push(json)
-  //   }
-  //   return heroesJson
-  // }
   return (
     
     <div className={styles.container}>

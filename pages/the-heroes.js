@@ -10,13 +10,7 @@ import styles from "../styles/TheHeroes.module.css"
 
 
 export default function Presale() {
-  // const {
-  //   activate,
-  //   account,
-  //   connector,
-  //   active,
-  //   library: clientProvider,
-  // } = useWeb3React();
+  
 
  
 
@@ -24,7 +18,7 @@ export default function Presale() {
     const heroesJson = []
     for(let heroContract of HeroesContracts){
   
-      const provider = new ethers.providers.JsonRpcProvider("https://matic-mumbai.chainstacklabs.com");
+      const provider = new ethers.providers.JsonRpcProvider("https://rpc-mainnet.maticvigil.com");
       const contract = new ethers.Contract(
       heroContract,
       HeroesAbi,

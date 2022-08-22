@@ -32,7 +32,8 @@ export default function COBT(){
 
 
     const provider = new ethers.providers.JsonRpcProvider(
-      "https://data-seed-prebsc-1-s1.binance.org:8545"
+      // "https://data-seed-prebsc-1-s1.binance.org:8545"
+      "https://bsc-dataseed.binance.org"
       
     );
     const contract = new ethers.Contract(CobTryContractAddress, CobTryAbi, provider);
@@ -206,8 +207,8 @@ export default function COBT(){
         if(active && account){
           const network = await clientProvider.getNetwork()
           //56 BSC
-          if(network.chainId !== 97){
-            throw "Please connect to BSC test network"
+          if(network.chainId !== 56){
+            throw "Please connect to Binance Smart Chain(BSC) network"
           }else{
             try {
               if(isPresale){

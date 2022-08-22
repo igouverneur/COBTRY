@@ -17,7 +17,7 @@ export function CountDownTimerProvider ({children}) {
 
   useEffect(() => {
     setIsloading(true);
-    setPublicSaleDate(new Date('September 24, 2022 18:00:00').getTime()/1000);
+    setPublicSaleDate(new Date('September 22, 2022 18:00:00').getTime()/1000);
     if(Math.floor(publicSaleDate - Date.now() / 1000) > 0){
       setPublicSaleRemainingTime(Math.floor(publicSaleDate - Date.now() / 1000));
       setIsloading(false);
@@ -26,7 +26,7 @@ export function CountDownTimerProvider ({children}) {
   }, []);
   useEffect(() => {
     setIsloading(true);
-    setPreSaleDate(new Date('September 23, 2022 18:00:00').getTime()/1000);
+    setPreSaleDate(new Date('September 21, 2022 18:00:00').getTime()/1000);
     if(Math.floor(preSaleDate - Date.now() / 1000) > 0 ){
       setPreSaleRemainingTime(Math.floor(preSaleDate - Date.now() / 1000));
     setIsloading(false);

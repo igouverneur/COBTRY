@@ -866,14 +866,6 @@ export const HeroesAbi = [
 
 
 
-
-const firstHeroAddress = "0xBB3e474D3977100e5d5816aB0d28b851fb3A4ed1"
-const SecondHeroAddress = "0x703c6AD5Ab81B859773EAc7475B63E0a8338fB5F"
-const ThirdHeroAddress = "0x5DFFF3e888b3187411237d349218DFeE4aDe1F9E"
-const FourthHeroAddress = "0xD7C6C3F94A650f606f44B92B11fde182b5AcBba8"
-const FifthHeroAddress = "0x6B5856EB18299005AcBC9940b134d0B43b8F8041"
-const SixthHeroAddress = "0xb26139807Da28E2E9fc5809C604c424855be09ba"
-
 const ClarkTry = "0x4034bfFBB5DeB483A1228B71a14af2795886256D"
 // const ClarkTry = "0x1558D0F8868Cfb94EE29ce2e06aDd295ef876410"
 const LindaTry = "0x58Ddc67923B845E01c1BDec5727F5e414344118D"
@@ -890,4 +882,21 @@ const HanmaTry = "0xaCc010b192Ae46781f7e32Ba3D06340eb72A5D38"
 
 const MyutantoTry = "0xE63261B01c43d5f79556e4302125813017Ec1859"
 
-export const HeroesContracts = [ClarkTry, LindaTry, KatsodoTry, JubaTry, BurkaTry, KyoseiTry, HanmaTry, MyutantoTry]
+const Clark = "0xf9F2839379c66aB8978239dad2D360491ac51b8e"
+// const Clark = "0xFF4E741572Fa00a93949aD571Cb2F8D6A9E1dc33"
+
+const Linda = "0xA753D91403B4c0053Ec986881E5D5AFdAE0E0565"
+
+const Katsodo = "0x2688b4f181B80404D6dA10cE68093C07e13398Ec"
+
+const Juba = "0xeA8A8FDBCAd2864c7C713F4D09801a13B7A715A8"
+
+const Burka = "0x841FE154FdB5c3A3C880e4f674CA9946d9bD5A14"
+
+const Kyosei = "0xdD9DFdb27B18B13eE5E6466149B41850Ed5d26CD"
+
+const Hanma = "0x47e236Fb5b2E85E1D06DA2262A08b17FaDA20E45"
+
+const Myutanto = "0x416b88A5372128E09FB9698Ce264c7d3D5d724E9"
+
+export const HeroesContracts = [Clark, Linda, Katsodo, Juba, Burka, Kyosei, Hanma, Myutanto]
