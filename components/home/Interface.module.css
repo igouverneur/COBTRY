@@ -48,7 +48,9 @@ background-image: url("../../public/images/wall_paper4.png");
     font-size: 1rem;
     color: rgb(204, 197, 197);
 }
-.intro button{
+
+
+.intro a{
     background-color: var(--primaryColor); /* Green */
   border: none;
   color: white;
@@ -60,7 +62,7 @@ background-image: url("../../public/images/wall_paper4.png");
     margin-top: 1rem;
 }
 
-.intro button:hover{
+.intro a:hover{
     background-color: black;
 
 

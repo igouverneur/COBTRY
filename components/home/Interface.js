@@ -25,7 +25,7 @@ export default function Interface() {
         <legend className={styles.coming}>Coming Soon</legend>
         <CountDownTimer d={d} h={h} m={m} s={s} />
         
-        <button>Join Whitelist</button>
+        <a href="https://gleam.io/XQCSJ/call-of-blockchain-giveaway-and-whitelist-competition" target="_blank" rel="noreferrer">Join Whitelist</a>
       </div>
     </div>
   );
